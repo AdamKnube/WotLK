@@ -1,2 +1,6 @@
 # WotLK
-Builds latest azerothcore-wotlk server with latest mod-playerbots and mod-junk-to-gold.
+This script (and text files) configure and build the latest azerothcore-wotlk server fork for playerbots.
+
+Includes: Latest mod-playerbots and mod-junk-to-gold.
+
+Optional: Edit the file 'playerbots.txt' to set your default bot settings.

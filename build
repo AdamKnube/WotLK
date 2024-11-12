@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+rm -rf azerothcore-wotlk/
+git clone https://github.com/liyunfan1223/azerothcore-wotlk.git --branch=Playerbot
+cd azerothcore-wotlk/modules
+git clone https://github.com/liyunfan1223/mod-playerbots.git --branch=master
+git clone https://github.com/noisiver/mod-junk-to-gold
+cd ..
+cp ../docker.txt ./docker-compose.yml
+cp ../playerbots.txt ./modules/mod-playerbots/conf/playerbots.conf.dist
+sync
+docker compose up -d --build
+
+
