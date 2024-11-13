@@ -89,6 +89,7 @@ services:
       - ${DOCKER_VOL_DATA:-ac-client-data}:/azerothcore/env/dist/data/:ro
       - ./modules/mod-playerbots/:/azerothcore/modules/mod-playerbots:ro
       - ./modules/mod-junk-to-gold/:/azerothcore/modules/mod-junk-to-gold:ro
+      - ./modules/mod-groupquests/:/azerothcore/modules/mod-groupquests:ro
     depends_on:
       ac-database:
         condition: service_healthy

@@ -20,7 +20,7 @@ Most lines that are not enclosed in brackets can be directly pasted into the ter
 Some lines however may require edits before pasting them, so always read the () comments.
 Let's get started.
 
-******[AzerothCore 3.3.5 (WotLK) with Playerbots and Junk2Gold modules Docker setup]******
+******[AzerothCore 3.3.5 (WotLK) with Playerbots/Junk2Gold/GroupQuests Setup]******
 
 (Some distros locate bash in a different place then my shebang line.)
 (Saying that, if the first command fails with '/usr/bin/bash not found.)
